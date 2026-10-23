@@ -1,0 +1,138 @@
+# =========================================================
+# Vue.js + Vite - Git Ignore
+# =========================================================
+
+# -------------------------
+# Dependencies
+# -------------------------
+node_modules/
+
+# -------------------------
+# Build Output
+# -------------------------
+dist/
+dist-ssr/
+
+# -------------------------
+# Environment Variables & Secrets
+# -------------------------
+.env
+.env.*
+!.env.example
+!.env.development.example
+!.env.production.example
+!.env.testing.example
+
+# -------------------------
+# Vite
+# -------------------------
+*.local
+.vite/
+
+# -------------------------
+# Logs
+# -------------------------
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# -------------------------
+# Testing & Coverage
+# -------------------------
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+vitest-reports/
+
+# -------------------------
+# IDEs & Editors
+# -------------------------
+.idea/
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.sublime-workspace
+
+# -------------------------
+# Operating System Files
+# -------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# -------------------------
+# Temporary & Backup Files
+# -------------------------
+*.tmp
+*.temp
+*.bak
+*.old
+*~
+
+# -------------------------
+# TypeScript
+# -------------------------
+*.tsbuildinfo
+
+# -------------------------
+# Package Manager Debug Files
+# -------------------------
+.npm/
+.pnpm-store/
+
+# -------------------------
+# Local Certificates & Keys
+# -------------------------
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+
+# -------------------------
+# Local Database & Backups
+# -------------------------
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+*.dump
+
+# -------------------------
+# Generated Documentation
+# -------------------------
+.vuepress/dist/
+.temp/
+
+# -------------------------
+# Framework-Specific Generated Files
+# -------------------------
+.nuxt/
+.output/
+.svelte-kit/
+
+# -------------------------
+# Local Tool State
+# -------------------------
+.eslintcache
+.stylelintcache
+.cache/
+.parcel-cache/
+
+# -------------------------
+# OS / Editor Swap Files
+# -------------------------
+*.swp
+*.swo
